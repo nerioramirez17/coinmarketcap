@@ -49,7 +49,7 @@ const Home = ({ navigation }: { navigation: HomeScreenNavigationProp }) => {
   const { getCurrencies } = useApi();
   const { clearUser } = useUser();
   const { data, refetch, isFetching } = useQuery('currencies', getCurrencies, {
-    //refetchInterval: 30000,
+    refetchInterval: 30000,
   });
 
 

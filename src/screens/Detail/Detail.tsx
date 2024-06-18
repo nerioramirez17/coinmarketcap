@@ -37,7 +37,7 @@ const Detail: React.FC<DetailProps> = ({ route }) => {
     ['currency', currency.id],
     () => getCurrencyById(currency.id),
     {
-      //refetchInterval: 30000,
+      refetchInterval: 30000,
     },
   );
 

@@ -1,0 +1,10 @@
+894526a20238db1773e8510a876b73c6
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.NativeModule = void 0;
+var _reactNative = require("react-native");
+var NativeModule = exports.NativeModule = _reactNative.TurboModuleRegistry.getEnforcing('RNGoogleSignin');
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfcmVhY3ROYXRpdmUiLCJyZXF1aXJlIiwiTmF0aXZlTW9kdWxlIiwiZXhwb3J0cyIsIlR1cmJvTW9kdWxlUmVnaXN0cnkiLCJnZXRFbmZvcmNpbmciXSwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvc3BlYy9OYXRpdmVHb29nbGVTaWduaW4udHMiXSwic291cmNlc0NvbnRlbnQiOltudWxsXSwibWFwcGluZ3MiOiI7Ozs7OztBQUNBLElBQUFBLFlBQUEsR0FBQUMsT0FBQTtBQWlDTyxJQUFNQyxZQUFZLEdBQUFDLE9BQUEsQ0FBQUQsWUFBQSxHQUN2QkYsWUFBQSxDQUFBSSxtQkFBbUIsQ0FBQ0MsWUFBWSxDQUFPLGdCQUFnQixDQUFDIiwiaWdub3JlTGlzdCI6W119

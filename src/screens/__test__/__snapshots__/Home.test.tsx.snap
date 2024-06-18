@@ -1,0 +1,671 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component should render a snapshot with data 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FFF",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "marginTop": 50,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "borderBottomLeftRadius": 28,
+          "borderBottomRightRadius": 28,
+          "borderColor": "#FFF",
+          "borderTopLeftRadius": 28,
+          "borderTopRightRadius": 28,
+          "borderWidth": 1,
+          "marginBottom": 16,
+          "marginLeft": 16,
+          "marginRight": 16,
+          "marginTop": 16,
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <SvgMock
+          height={18}
+          style={
+            {
+              "marginRight": 8,
+            }
+          }
+          width={18}
+        />
+        <TextInput
+          autoCapitalize="none"
+          autoCorrect={false}
+          autoFocus={true}
+          onChangeText={[Function]}
+          placeholder="Buscar Criptomonedas"
+          placeholderTextColor="#6C757D"
+          style={
+            {
+              "color": "#FFF",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "fontSize": 16,
+              "marginBottom": 0,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 0,
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+            }
+          }
+          value=""
+        />
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "marginBottom": 16,
+            "marginLeft": 22,
+            "marginTop": 16,
+          }
+        }
+      >
+        <RCTSwitch
+          accessibilityRole="switch"
+          onChange={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onTintColor="#2FA3FF"
+          style={
+            [
+              {
+                "height": 31,
+                "width": 51,
+              },
+              [
+                {
+                  "marginBottom": 8,
+                },
+                {
+                  "backgroundColor": "#D3D3D3",
+                  "borderRadius": 16,
+                },
+              ],
+            ]
+          }
+          tintColor="#767577"
+          value={false}
+        />
+        <Text
+          style={
+            {
+              "color": "#FFF",
+              "fontWeight": "600",
+              "marginBottom": 8,
+            }
+          }
+        >
+          Favoritos
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "",
+            "borderBottomLeftRadius": 18,
+            "borderBottomRightRadius": 18,
+            "borderTopLeftRadius": 18,
+            "borderTopRightRadius": 18,
+            "justifyContent": "center",
+            "marginBottom": 30,
+            "marginLeft": 30,
+            "marginRight": 30,
+            "marginTop": 30,
+            "opacity": 1,
+            "width": 160,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#FFF",
+              "fontSize": 12,
+            }
+          }
+        >
+          Cerrar Sesion
+        </Text>
+      </View>
+    </View>
+    <RCTScrollView
+      contentContainerStyle={
+        {
+          "paddingHorizontal": 16,
+        }
+      }
+      data={
+        [
+          {
+            "circulating_supply": 19664912,
+            "date_added": "2010-07-13T00:00:00.000Z",
+            "id": 1,
+            "infinite_supply": false,
+            "last_updated": "2024-03-26T16:46:00.000Z",
+            "max_supply": 21000000,
+            "name": "Bitcoin",
+            "num_market_pairs": 10943,
+            "quote": {
+              "USD": {
+                "fully_diluted_market_cap": 1461593973764.67,
+                "last_updated": "2024-03-26T16:46:00.000Z",
+                "market_cap": 1368672232086.3074,
+                "market_cap_dominance": 52.24,
+                "percent_change_1h": -1.03136701,
+                "percent_change_24h": -0.73631703,
+                "price": 69599.71303641264,
+                "volume_24h": 40664759292.57396,
+              },
+            },
+            "symbol": "BTC",
+            "total_supply": 19664912,
+          },
+          {
+            "circulating_supply": 120074016.27550143,
+            "date_added": "2015-08-07T00:00:00.000Z",
+            "id": 1027,
+            "infinite_supply": true,
+            "last_updated": "2024-03-26T16:45:00.000Z",
+            "max_supply": null,
+            "name": "Ethereum",
+            "num_market_pairs": 8652,
+            "quote": {
+              "USD": {
+                "fully_diluted_market_cap": 426159223963.85,
+                "last_updated": "2024-03-26T16:45:00.000Z",
+                "market_cap": 426159223963.8475,
+                "market_cap_dominance": 16.2231,
+                "percent_change_1h": -1.23818139,
+                "percent_change_24h": -1.37018086,
+                "price": 3549.137750052892,
+                "volume_24h": 20406590605.586422,
+              },
+            },
+            "symbol": "ETH",
+            "total_supply": 120074016.27550143,
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      refreshControl={
+        <RefreshControlMock
+          onRefresh={[Function]}
+        />
+      }
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={0.0001}
+      showsVerticalScrollIndicator={false}
+      stickyHeaderIndices={[]}
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <RCTRefreshControl />
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginBottom": 6,
+                  "marginLeft": 6,
+                  "marginRight": 6,
+                  "marginTop": 6,
+                  "paddingBottom": 12,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 12,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                    "marginBottom": 14,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    {
+                      "uri": "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png",
+                    }
+                  }
+                  style={
+                    {
+                      "borderBottomLeftRadius": 20,
+                      "borderBottomRightRadius": 20,
+                      "borderTopLeftRadius": 20,
+                      "borderTopRightRadius": 20,
+                      "height": 40,
+                      "width": 40,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    {
+                      "marginLeft": 12,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#FFF",
+                        "fontSize": 16,
+                        "fontWeight": "bold",
+                      }
+                    }
+                  >
+                    Bitcoin
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "color": "",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    BTC
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "marginLeft": 12,
+                    "marginRight": 22,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "",
+                      "fontSize": 14,
+                      "textAlign": "right",
+                    }
+                  }
+                >
+                  69599.71
+                </Text>
+                <Text
+                  negative={true}
+                  style={
+                    {
+                      "color": "",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "textAlign": "right",
+                    }
+                  }
+                >
+                  -0.73631703
+                  %
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "position": "absolute",
+                    "right": 8,
+                    "top": 6,
+                  }
+                }
+              >
+                <SvgMock
+                  height={16}
+                  width={16}
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginBottom": 6,
+                  "marginLeft": 6,
+                  "marginRight": 6,
+                  "marginTop": 6,
+                  "paddingBottom": 12,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 12,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                    "marginBottom": 14,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    {
+                      "uri": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+                    }
+                  }
+                  style={
+                    {
+                      "borderBottomLeftRadius": 20,
+                      "borderBottomRightRadius": 20,
+                      "borderTopLeftRadius": 20,
+                      "borderTopRightRadius": 20,
+                      "height": 40,
+                      "width": 40,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    {
+                      "marginLeft": 12,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#FFF",
+                        "fontSize": 16,
+                        "fontWeight": "bold",
+                      }
+                    }
+                  >
+                    Ethereum
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "color": "",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    ETH
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "marginLeft": 12,
+                    "marginRight": 22,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "",
+                      "fontSize": 14,
+                      "textAlign": "right",
+                    }
+                  }
+                >
+                  3549.14
+                </Text>
+                <Text
+                  negative={true}
+                  style={
+                    {
+                      "color": "",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "textAlign": "right",
+                    }
+                  }
+                >
+                  -1.37018086
+                  %
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "position": "absolute",
+                    "right": 8,
+                    "top": 6,
+                  }
+                }
+              >
+                <SvgMock
+                  height={16}
+                  width={16}
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

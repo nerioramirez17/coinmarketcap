@@ -1,7 +1,6 @@
 # Challenge
 
-Challenge App
-Este repositorio contiene la aplicación móvil "Challenge", desarrollada en React Native.
+Challenge usando la API de coinmarketcap, desarrollada en React Native.
 
 # Requisitos
 
